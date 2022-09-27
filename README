@@ -1,0 +1,20 @@
+Simple Entity Component System.
+
+Entity Component System (ECS) architecture design has been rapidly advancing in the past decade,
+especially in game development. Major commercial engines such as Unity and UnrealEngine implement ECS.
+
+I have take this project as a learning exercise to catch basic idea behind internal structure of ECS.
+As result, an optimized and efficient ECS engine is not my primary goal. Downsides of this project are
+lack of custom memory managment and heavy use of C++ classes instead of efficient and cache-friendly
+linear data structures and simple functions.
+
+There are other similar implemantation of ECS:
+https://savas.ca/nomad
+https://austinmorlan.com/posts/entity_component_system
+https://www.david-colson.com/2020/02/09/making-a-simple-ecs.html
+
+Robust ECS library for practical use you can find at:
+https://github.com/skypjack/entt
+https://github.com/alecthomas/entityx
+
+
