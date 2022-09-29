@@ -8,6 +8,11 @@ As result, an optimized and efficient ECS engine is not my primary goal. Downsid
 lack of custom memory managment and heavy use of C++ classes instead of efficient and cache-friendly
 linear data structures and simple functions.
 
+
+TODO:
+implement EventBus pattern
+
+
 There are other similar implemantation of ECS:
 https://savas.ca/nomad
 https://austinmorlan.com/posts/entity_component_system
